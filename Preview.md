@@ -1,3 +1,11 @@
+# Preview
+This programm is PUBG image detection module.  
+It takes PUBG game screenshot and analyze it for bHaptic tactsuit or tactot.  
+Take about 25 FPS screenshot.  
+Best performance on 1920x1080, tested on 3440X1440  
+Cause of d3dshot module, it needs BORDERLESS and ENGLISH PUBG game play
+
+
 # Program Controller
 ## main.py
 ### main()
