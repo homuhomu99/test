@@ -1,7 +1,16 @@
-# test
-test!
+# Main game phase
 ![points](https://user-images.githubusercontent.com/76416010/108980497-12c2db80-76cf-11eb-942a-c915c2ee3d2c.png)
 
+## isgame
+Check 1, 2
+
+Number part white high, JOINED part white low.  
+NOTGAME : 1 off  
+PREGAME : Detects "MATCH STARTS IN"  
+INGAME : 1 on, 2 off  
+PRACTICE : 1 on, 2 on  
+
+## findfire
 ### findfire()
 Mouse left clicked, 3 on
 * Punch : 5 off, 4 off
@@ -15,7 +24,7 @@ Mouse left clicked, 3 on
 ### bullet_num() 
 Cut 4 into pieces (ex : 150 -> 1, 5, 0), check number images, returns bullet num
 
-## findvehicle.py
+## findvehicle
 ### findvehicle() 
 * Car : 9 gas log matches
 Can get speed and vehicle type
@@ -43,3 +52,5 @@ When HP up is detected, check 5 more frames.
 ### damage()
 * Bluezone : Check 6, accumulated over 1 HP reduce
 * Damage : Check 6, more than 7 HP reduce
+### isdead() :
+Check 6, when 6 detected 0 HP and killer's name detected.
