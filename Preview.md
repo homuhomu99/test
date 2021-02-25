@@ -96,4 +96,16 @@ Cut 4 into pieces (ex : 217 -> 2, 1, 7), check number images, returns bullet num
 * Parachute : After parachute active
 * Landing : 2 on, 4 off
 ## isfalling()
-Detect 4 KM/H to check falling at practice mode
+Detect KM/H at 4 to check falling at practice mode
+## isground() 
+Check map's white to check player is on ground, not a setting or inventory page.
+
+# Not Used Methods
+## z_findexplode.py
+Get sound output, apply Fourier transform and tried to get explode sound.  
+Takes too many resources and hard to detect specific sounds
+## z_findimpact.py
+Tried to detect falling impact by screen shaking.  
+## z_findrun.py
+It successfully detects running by keyboard input and map movement.  
+Too many haptic when it executes.
