@@ -1,3 +1,4 @@
+# Program Controller
 ## main.py
 ### main()
 Make keyboard and mouse listener on  
@@ -79,3 +80,16 @@ When HP up is detected, check 5 more frames.
 * Damage : Check 6, more than 7 HP reduce
 ### isdead() :
 Check 6, when 6 detected 0 HP and killer's name detected.
+
+# Air Phase
+![Air](https://user-images.githubusercontent.com/76416010/109091955-1602a980-7759-11eb-9c03-e553304d4a72.png)
+## findplane.py
+### findplane()
+* Airplane : 1 on, 3 on
+## findfalling.py
+### findfalling()
+Get speed when 1 on, 2 on, 4 on || 1 on, 2 off, 4 off
+* Freefall : Speed over 126
+* Parachute actvie : First time speed under 126
+* Parachute : After parachute active
+* Landing : 2 on, 4 off
