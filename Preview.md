@@ -2,3 +2,44 @@
 test!
 ![points](https://user-images.githubusercontent.com/76416010/108980497-12c2db80-76cf-11eb-942a-c915c2ee3d2c.png)
 
+### findfire()
+Mouse left clicked, 3 on
+* Punch : 5 off, 4 off
+* Trhow : 5 off, 4 on
+* Fire : 5 on, 4 change
+### findaim()
+* Aim : mouse right clicked, 3 on, 5 on
+### reload()
+* Reload : Within 150 screen, 4 on, 5 change
+
+### bullet_num() 
+Cut 4 into pieces (ex : 150 -> 1, 5, 0), check number images, returns bullet num
+
+## findvehicle.py
+### findvehicle() 
+* Car : 9 gas log matches
+Can get speed and vehicle type
+
+## findweapon
+### getwepnum()
+* Swap : keyboard 1,2,3,4,5,x pressed, 4 or 5 change
+
+## findkill
+### findkill()
+* Kill : 10 red part is separated, 10 white part is on
+
+## findaction
+### findaction()
+* Action : 8 circular gauge on, 7 matches
+### findinter() 
+* Interaction : 7 'F' matches
+
+## getHP
+### getHP()
+Check 6. Get y direction sum.
+When HP bar's first pixel is different to background.
+Check the pixel's continuity.
+When HP up is detected, check 5 more frames.
+### damage()
+* Bluezone : Check 6, accumulated over 1 HP reduce
+* Damage : Check 6, more than 7 HP reduce
