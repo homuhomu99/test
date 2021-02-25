@@ -66,7 +66,7 @@ Can get speed and vehicle type
 ## findweapon.py
 ### getwepnum()
 * Swap : keyboard 1,2,3,4,5,x pressed, 4 or 5 change
-
+Save previous 4, 5 stats and keyboard input to make swapin haptic
 ## findkill.py
 ### findkill()
 * Kill : 10 red part is separated, 10 white part is on
