@@ -1,3 +1,29 @@
+## main.py
+### main()
+Make keyboard and mouse listener on  
+Init images like number images  
+Set mainflow() into new thread  
+Set timer() into new thread  
+Set GUI and if UI closes, all thread stops and program ends
+### timer()
+Screenshot frame rate controller
+### mainflow()
+Take screenshot  
+Check what is screen's game phase  
+Depends on game phase, execute stream() or airflow()
+### stream()
+Analyze gameplay screenshot. 
+Passes what types of haptics this page needs.  
+Detect Damage, Kill, Action, Bluezone, Vehicle, Reload, Swap, Aim  
+### airflow()
+Manage airplane->freefall->parachute->landing sequence  
+Passes each types of haptics
+
+## haptics.py
+Play haptics  
+Skip if same haptic type is playing  
+Different type of haptic takes different alt
+
 # Main game phase
 ![points](https://user-images.githubusercontent.com/76416010/108980497-12c2db80-76cf-11eb-942a-c915c2ee3d2c.png)
 
