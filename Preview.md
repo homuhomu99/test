@@ -2,8 +2,7 @@
 ![points](https://user-images.githubusercontent.com/76416010/108980497-12c2db80-76cf-11eb-942a-c915c2ee3d2c.png)
 
 ## isgame.py
-Check 1, 2
-
+Check 1, 2  
 Number part white high, JOINED part white low.  
 NOTGAME : 1 off  
 PREGAME : Detects "MATCH STARTS IN"  
