@@ -1,7 +1,7 @@
 # Main game phase
 ![points](https://user-images.githubusercontent.com/76416010/108980497-12c2db80-76cf-11eb-942a-c915c2ee3d2c.png)
 
-## isgame
+## isgame.py
 Check 1, 2
 
 Number part white high, JOINED part white low.  
@@ -10,7 +10,7 @@ PREGAME : Detects "MATCH STARTS IN"
 INGAME : 1 on, 2 off  
 PRACTICE : 1 on, 2 on  
 
-## findfire
+## findfire.py
 ### findfire()
 Mouse left clicked, 3 on
 * Punch : 5 off, 4 off
@@ -24,26 +24,26 @@ Mouse left clicked, 3 on
 ### bullet_num() 
 Cut 4 into pieces (ex : 150 -> 1, 5, 0), check number images, returns bullet num
 
-## findvehicle
+## findvehicle.py
 ### findvehicle() 
 * Car : 9 gas log matches
 Can get speed and vehicle type
 
-## findweapon
+## findweapon.py
 ### getwepnum()
 * Swap : keyboard 1,2,3,4,5,x pressed, 4 or 5 change
 
-## findkill
+## findkill.py
 ### findkill()
 * Kill : 10 red part is separated, 10 white part is on
 
-## findaction
+## findaction.py
 ### findaction()
 * Action : 8 circular gauge on, 7 matches
 ### findinter() 
 * Interaction : 7 'F' matches
 
-## getHP
+## getHP.py
 ### getHP()
 Check 6. Get y direction sum.
 When HP bar's first pixel is different to background.
